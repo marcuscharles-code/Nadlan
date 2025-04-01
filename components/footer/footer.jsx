@@ -125,8 +125,6 @@ const Footer = () => {
     return _error;
   };
 
-  // You can add more validations based on your requirements
-
   return (
     <div className="bg-black">
       <footer
@@ -139,10 +137,7 @@ const Footer = () => {
               <img src="/Homyz-logo.png" className="w-36" alt="Homyz-logo" />
             </a>
             <p style={{ color: "#696969" }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam,
-              pariatur. Fugit dignissimos aut tempora ullam similique minima
-              culpa quod fuga, doloribus expedita, cupiditate sint, nulla
-              distinctio soluta. Aut, sequi quia.
+              Discover your dream home with Homyz. We specialize in connecting buyers with their perfect properties and helping sellers achieve the best deals. Our expert team is dedicated to making your real estate journey seamless.
             </p>
             <div className="flex text-xl justify-start items-center gap-10 text-red-500">
               <Link target="_blank" to={"https://facebook.com"}>
@@ -186,7 +181,7 @@ const Footer = () => {
               </Link>
             </ul>
           </div>
-          <p style={{ color: "#696969" }}>© Homyz. All Rights Reserved 2023.</p>
+          <p style={{ color: "#696969" }}>© Homyz. All Rights Reserved {new Date().getFullYear()}.</p>
         </div>
 
         <div

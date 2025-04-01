@@ -54,14 +54,13 @@ const HomePage = () => {
             variants={animationVariants.fadeLeft}
             className="text-6xl max-lg:mx-auto font-semibold max-sm:text-4xl max-w-lg "
           >
-            Discover Most Suitable Property
+            Find Your Dream Home Today
           </motion.h1>
           <motion.p
             variants={animationVariants.fadeLeft}
             className="text-xl max-lg:mx-auto max-w-md  "
           >
-            Our mission is to engage in issues that are of concern to
-            individuals
+            Explore thousands of premium properties—from cozy apartments to luxury villas—in your ideal location.
           </motion.p>
           <motion.div
             variants={animationVariants.fadeLeft}
@@ -96,12 +95,12 @@ const HomePage = () => {
           >
             <div className="flex gap-12">
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">19K+</h2>
+                <h2 className="text-4xl title-font font-bold">9K+</h2>
                 <p className="text-lg">Premium houses</p>
               </div>
               <div className="flex flex-col gap-4">
-                <h2 className="text-4xl title-font font-bold">5000+</h2>
-                <p className="text-lg">Premium houses</p>
+                <h2 className="text-4xl title-font font-bold">80K+</h2>
+                <p className="text-lg">Customers</p>
               </div>
             </div>
             <div className="flex gap-12 max-sm:flex-wrap  justify-center">
@@ -150,10 +149,7 @@ const HomePage = () => {
               viewport={{ once: true, amount: 0.2 }}
             >
               <p className="text-xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                itaque nesciunt similique dolore illum eaque repellat eligendi
-                nemo odit fugit in, impedit ad excepturi architecto dolores
-                quaerat accusantium! Sapiente, repellendus!
+                For over 25 years, we’ve crafted exceptional living spaces that blend innovative design, unmatched craftsmanship, and prime locations. Trusted by homeowners and investors alike, our projects redefine modern comfort and long-term value.
               </p>
               <Link onClick={scrollToTop} to={"/about"}>
                 <Button
@@ -183,15 +179,20 @@ const HomePage = () => {
             <h2 className="text-5xl max-md:text-4xl font-bold title-font">
               What we do
             </h2>
-            <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-              urna in elit amet blandit enim lacinia. Tellus leo felis et vel
-              eget maecenas.
+            <p className="text-xl text-start">
+              As a leading UK property developer, we specialise in:
+              <ul className="list-disc pl-5 mt-3 space-y-2">
+                <li>Residential developments across London and major cities in the world</li>
+                <li>Commercial property investments and management</li>
+                <li>Renovation and conversion of period properties</li>
+                <li>Sustainable, energy-efficient home building</li>
+                <li>End-to-end property services from acquisition to completion</li>
+              </ul>
             </p>
             <Link onClick={scrollToTop} to={"/about"}>
               <button
                 style={{ borderWidth: 1.5, borderRadius: 4 }}
-                className="bg-transparent  text-black border-red-500 text-xl px-5 py-2 duration-300 hover:bg-red-500 hover:text-white transition-all mt-5 max-md:mt-3"
+                className="bg-transparent text-black border-red-500 text-xl px-5 py-2 duration-300 hover:bg-red-500 hover:text-white transition-all mt-5 max-md:mt-3"
               >
                 About Us
               </button>
@@ -336,14 +337,13 @@ const HomePage = () => {
               variants={animationVariants.fadeLeft}
               className="text-5xl max-md:text-4xl font-semibold"
             >
-              We use Real Estate to show our appreciation of the world.
+              Transforming Spaces, Enriching Lives
             </motion.h1>
             <motion.p
               variants={animationVariants.fadeLeft}
               className="text-2xl"
             >
-              We provide equity and debt capital globally to back projects that
-              make an impact.
+              We combine innovative design with sustainable practices to create properties that stand the test of time.
             </motion.p>
             <motion.div
               variants={animationVariants.fadeLeft}
@@ -351,34 +351,34 @@ const HomePage = () => {
             >
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  450+
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Properties developed across the world
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  £150M
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Total investment portfolio value
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  98%
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Client satisfaction rate
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  18
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Years of excellence in property development
                 </p>
               </div>
             </motion.div>
@@ -397,7 +397,7 @@ const HomePage = () => {
               <img
                 src="/appriciation-section-image.jpg"
                 className="absolute w-full h-full object-cover object-center "
-                alt=""
+                alt="Modern property development"
               />
               <div className="absolute w-full h-full bg-black/50 "></div>
 

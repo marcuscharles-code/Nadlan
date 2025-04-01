@@ -139,7 +139,7 @@ const NavBar = ({ navBar2, showCase1Page }) => {
                                     </h2>
                                   </Link>
                                   <h3>
-                                    PKR {formatCompactNumber(e.price)}/Month
+                                    $ {formatCompactNumber(e.price)}
                                   </h3>
                                   <p
                                     onClick={(event) => {

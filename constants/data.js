@@ -9,21 +9,23 @@ export const rentHouses = [
       "/Rent-houses/House-1/home1-4.jpg",
       "/Rent-houses/House-1/home1-5.jpg",
     ],
-    name: "Lahore",
-    address: "DHA 9 City, Lahore, Pakistan",
-    price: 130000,
+    name: "Manchester",
+    address: "City Centre, Manchester, UK",
+    price: 320000, // $320k
     details: [
-      "4 Bedrooms",
-      "3 attached Bathrooms",
-      "2 common Bathrooms",
-      "2 Kitchens",
-      "Beautifully designed structure",
-      "Unfurnished",
-      "Best Location",
-      "Area: 10 marla",
+      "2 Bedroom Apartment",
+      "2 Bathrooms",
+      "Open-plan living",
+      "Modern Kitchen",
+      "Floor-to-ceiling windows",
+      "Underground Parking",
+      "24hr Concierge",
+      "Area: 850 sq.ft",
+      "Fully Furnished",
+      "Gym & Sauna"
     ],
     description:
-      "DHA 9 Housing Scheme A block 10 Marla New brand house available for sale Good location house near by hospital and market and masjid and LGS school and other facilities",
+      "Contemporary city-center apartment with stunning urban views. This luxury unit features high-end finishes, smart home technology, and access to premium amenities including a residents' gym, sauna, and private cinema room. Walking distance to shopping, dining and transport links."
   },
   {
     id: 2,
@@ -35,21 +37,23 @@ export const rentHouses = [
       "/Rent-houses/House-2/home2-4.jpg",
       "/Rent-houses/House-2/home2-5.jpg",
     ],
-    name: "Karachi",
-    address: "Bahria Town, Karachi, Pakistan",
-    price: 100000,
+    name: "Orlando",
+    address: "Lake Nona, Florida, USA",
+    price: 425000, // $425k
     details: [
       "4 Bedrooms",
-      "1 big launge",
-      "4 attached Bathrooms",
-      "1 common Bathroom",
-      "2 Kitchens",
-      "Beautiful garden with parking",
-      "Half-furnished",
-      "Area: 20 marla",
+      "3 Bathrooms",
+      "Open Concept Living",
+      "Chef's Kitchen",
+      "Private Pool",
+      "Smart Home Ready",
+      "Gated Community",
+      "Area: 2,200 sq.ft",
+      "2-Car Garage",
+      "Energy Efficient"
     ],
     description:
-      "Bahria Town 20 Marla New brand house available for sale Good location house near by hospital and market and masjid and school, park and other facilities in fully future developed society",
+      "Beautiful family home in the sought-after Lake Nona area. This property features an open floor plan, modern kitchen with quartz countertops, and a screened pool area perfect for Florida living. Close to top-rated schools, medical city, and major highways."
   },
   {
     id: 3,
@@ -61,21 +65,23 @@ export const rentHouses = [
       "/Rent-houses/House-3/home3-4.jpg",
       "/Rent-houses/House-3/home3-5.jpg",
     ],
-    name: "Karachi",
-    address: "Gulistan-e-Johar, Karachi, Pakistan",
-    price: 50000,
+    name: "Birmingham",
+    address: "Jewellery Quarter, Birmingham, UK",
+    price: 185000, // $185k
     details: [
-      "Gulistan-e-Johar Block 7",
-      "MAHAM PLAZA",
-      "2 Bedrooms",
-      "2 Bathrooms",
-      "American design kitchen",
-      "Floor Level: 1st floor",
+      "1 Bedroom Loft",
+      "1 Bathroom",
+      "Industrial Chic Design",
+      "Open Kitchen",
+      "Exposed Brick",
+      "Secure Entry",
+      "Allocated Parking",
+      "Area: 650 sq.ft",
       "Unfurnished",
-      "Area: 950 sqr.feet",
+      "Cycle Storage"
     ],
     description:
-      "Apartment in installment (View phone number) Sqfeet VIP location near to park and masjid Gulistan-e-Johar karachi. You can find a Flat on the lower or upper levels, as suiting to your requirement. Buying property is a one-time life decision and we can help you with it. 950 Square Feet sized residential or commercial property is best for investment purposes. All your queries concerned with this property are welcome, so please contact us.",
+      "Stylish converted warehouse apartment in Birmingham's trendy Jewellery Quarter. This character-filled loft features high ceilings, exposed brick walls, and large factory windows. Walking distance to independent cafes, bars, and the city center. Perfect for young professionals."
   },
   {
     id: 4,
@@ -87,25 +93,27 @@ export const rentHouses = [
       "/Rent-houses/House-4/home4-4.jpg",
       "/Rent-houses/House-4/home4-5.jpg",
     ],
-    name: "Islamabad",
-    address: "Blue Area, F-3, Islamabad, Pakistan",
-    price: 135000,
+    name: "Atlanta",
+    address: "Midtown, Atlanta, Georgia, USA",
+    price: 725000, // $725k
     details: [
-      "Location: Isra Tower",
-      "2 Bedrooms",
-      "Drawing Room",
-      "2 Bathrooms",
-      "2 Modern kitchens",
-      "Floor Level: 1st floor",
-      "Unfurnished",
-      "Area: 1,100 sqr.feet",
+      "3 Bedrooms",
+      "2.5 Bathrooms",
+      "Modern Townhouse",
+      "Rooftop Terrace",
+      "Chef's Kitchen",
+      "Walkable Location",
+      "Smart Home Features",
+      "Area: 1,800 sq.ft",
+      "2 Parking Spaces",
+      "Pet Friendly"
     ],
     description:
-      "The Flat is well designed to accommodate the family and their guests. When it comes to housing, location is everything and we have quite a many options regarding that. The perfect 1,1000 Square Feet listing for your property needs are right within your reach.",
+      "Sophisticated townhouse in the heart of Midtown Atlanta. This contemporary home features an open floor plan, high-end appliances, and a private rooftop terrace with skyline views. Located within walking distance of Piedmont Park, arts centers, and top restaurants."
   },
   {
     id: 5,
-    type: "popular",
+    type: "budget",
     mainImage: "/Rent-houses/House-5/home5-1.jpg",
     moreImages: [
       "/Rent-houses/House-5/home5-2.jpg",
@@ -113,25 +121,27 @@ export const rentHouses = [
       "/Rent-houses/House-5/home5-4.jpg",
       "/Rent-houses/House-5/home5-5.jpg",
     ],
-    name: "Faisalabad",
-    address: "Saadi Town, Faisalabad, Pakistan",
-    price: 95000,
+    name: "Liverpool",
+    address: "Baltic Triangle, Liverpool, UK",
+    price: 125000, // $125k
     details: [
-      "Bunglow at saadi town scheme",
-      "4 Bedrooms",
-      "A big drawing Room",
-      "5 Bathrooms",
-      "2 Modern style kitchens",
+      "Studio Apartment",
+      "1 Bathroom",
+      "Open-plan Design",
+      "Modern Kitchenette",
+      "Secure Building",
+      "Bike Storage",
+      "On-site Laundry",
+      "Area: 400 sq.ft",
       "Unfurnished",
-      "Car Parking",
-      "Area: 120 sqr.yards",
+      "Great Transport Links"
     ],
     description:
-      "Saadi Town Brand New Project Banglow Double Story 120 Sq Yards Bedrooms with attach baths Drawing Lounge open American Kitchen Washing area Huge Terrace Tiles Flooring Fancy lights Complete Boundary wall project Daily Sweet line Water No Load Shedding gas Security Guards Masjid Park Pure Family Environment Main Road approach Ideal Location",
+      "Affordable studio apartment in Liverpool's creative Baltic Triangle district. This compact space is ideal for first-time buyers or investors, featuring modern finishes and excellent transport links. The area boasts trendy cafes, coworking spaces, and cultural venues."
   },
   {
     id: 6,
-    type: "featured",
+    type: "luxury",
     mainImage: "/Rent-houses/House-6/home6-1.jpg",
     moreImages: [
       "/Rent-houses/House-6/home6-2.jpg",
@@ -139,20 +149,22 @@ export const rentHouses = [
       "/Rent-houses/House-6/home6-4.jpg",
       "/Rent-houses/House-6/home6-5.jpg",
     ],
-    name: "Karachi",
-    address: "Bahria Town, Karachi, Pakistan",
-    price: 120000,
+    name: "Miami",
+    address: "Brickell, Miami, Florida, USA",
+    price: 1950000, // $1.95M
     details: [
-      "Bahria Villas, Bahria Town, Karachi",
-      "5 Bedrooms",
-      "Big drawing Room Lounge",
-      "6 Bathrooms",
-      "3 Modern style kitchens",
-      "Unfurnished",
-      "Indoor Car Parking",
-      "Area: 120 sqr.yards",
+      "3 Bedrooms + Den",
+      "3.5 Bathrooms",
+      "Waterfront Condo",
+      "Floor-to-ceiling Windows",
+      "Chef's Kitchen",
+      "Resort-style Pool",
+      "24/7 Concierge",
+      "Area: 2,400 sq.ft",
+      "2 Parking Spaces",
+      "Boat Slip Available"
     ],
     description:
-      "The Best Design As Per Your Desire And Your Dream House a Well Designed House In A Posh Location Is All You Need To Live Your Best Life. Right Now Is The Time To Buy This Property. This Property In Bahria Town is an Opportunity For The Investors And Buyers Alike, So Make The Most Out Of It. Bahria Town S Unique Features Bahria Town Is A Secure Community 24 7 Electricity Available Under Ground Electricity WiringGrand Jamia Masjid Petrol Pump Feel Free To Contact For Further Details",
-  },
+      "Luxury waterfront condo in Miami's financial district. This high-floor residence offers breathtaking bay views, premium finishes, and access to world-class amenities including a spa, fitness center, and private marina. Walking distance to top restaurants, shopping, and nightlife."
+  }
 ];

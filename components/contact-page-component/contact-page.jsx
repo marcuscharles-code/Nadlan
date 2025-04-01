@@ -331,35 +331,33 @@ const ContactPage = () => {
         >
           <div className="text-5xl max-md:text-4xl max-md:text-center">
             <h1 className="font-semibold ">
-              Contact our support{" "}
+              Get expert advice from our{" "}
               <span className="font-semibold title-font  text-red-500">
-                team to grow your business
+                dedicated support team
               </span>
             </h1>
           </div>
           <p className="text-xl">
-            Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-            impedit quo minus id quod maxime placeat facere possimus, omnis
-            voluptas assumenda est, omnis dolor repellendus.
+            Our property specialists are ready to help you navigate the market, whether you're looking to invest, sell, or find your dream home. Reach out today for personalized assistance.
           </p>
           <div className="flex flex-col gap-3">
             <div className="flex  gap-3 text-xl items-center">
               <div>
-                <FaEnvelope className="text-red-500" />
+                <FaMapMarkerAlt className="text-red-500" />
               </div>
-              <p>Office # 420 DHA Phase 90, Karachi, PK</p>
+              <p>123 Property Lane, London, UK</p>
             </div>
             <div className="flex  gap-3 text-xl items-center">
               <div>
                 <FaPhone className="rotate-90 text-red-500" />
               </div>
-              <p>+92 39283848238</p>
+              <p>+44 20 7946 0958</p>
             </div>
             <div className="flex  gap-3 text-xl items-center">
               <div>
-                <FaMapMarkerAlt className="text-red-500" />
+                <FaEnvelope className="text-red-500" />
               </div>
-              <p>information@office.com</p>
+              <p>contact@homyzproperties.co.uk</p>
             </div>
           </div>
         </motion.div>
@@ -368,16 +366,16 @@ const ContactPage = () => {
       {/* map section start */}
       <div
         style={{ maxWidth: 1200 }}
-        className="mx-auto w-full p-10 py-28 pt-10 max-sm:py-16 max-sm:pt-5 max-sm:px-5 "
+        className="mx-auto w-full p-10 py-28 pt-10 max-sm:py-16 max-sm:pt-5 max-sm:px-5"
       >
         <div className="bg-center bg-no-repeat bg-cover">
           <div className="relative">
             <img
               src="/contact-page-images/map.png"
-              className="h-[379px] max-md:h-[440px] max-sm:h-[500px] max-md:object-cover max-md:object-[70%] max-sm:object-[60%]  "
-              alt=""
+              className="h-[379px] max-md:h-[440px] max-sm:h-[500px] max-md:object-cover max-md:object-[70%] max-sm:object-[60%]"
+              alt="Global property network coverage"
             />
-            <div className="absolute flex justify-center items-center  bg-white/90  top-0 left-0 right-0 bottom-0">
+            <div className="absolute flex justify-center items-center bg-white/90 top-0 left-0 right-0 bottom-0">
               <motion.div
                 initial="initial"
                 whileInView="animate"
@@ -386,36 +384,35 @@ const ContactPage = () => {
                 className="max-w-xl max-lg:max-w-lg max-sm:w-full text-center"
               >
                 <h1 className="text-[46px] max-lg:text-4xl max-sm:text-[34px] max-[500px]:text-3xl leading-tight font-semibold">
-                  Whatever you are, you
-                  <br /> will definitely get a place
+                  Your Global Property Partner
+                  <br /> Across Continents
                 </h1>
                 <p className="text-xl mt-3">
-                  We provide equity and debt capital globally to back projects
-                  that make an impact.
+                  From London townhouses to New York penthouses, we connect you with premium properties and investment opportunities worldwide.
                 </p>
               </motion.div>
             </div>
 
             {/* map human images start */}
-            <div className="absolute top-24 max-md:top-6 left-16 max-lg:left-10  max-md:left-16 w-12 h-12 rounded-full overflow-hidden">
+            <div className="absolute top-24 max-md:top-6 left-16 max-lg:left-10 max-md:left-16 w-12 h-12 rounded-full overflow-hidden">
               <img
                 src="/contact-page-images/1.jpg"
                 className="w-full h-full object-cover object-center"
-                alt="1"
+                alt="UK property specialist"
               />
             </div>
             <div className="absolute bottom-20 max-lg:bottom-12 left-36 max-lg:left-20 max-sm:left-10 w-12 h-12 rounded-full overflow-hidden">
               <img
                 src="/contact-page-images/2.jpg"
                 className="w-full h-full object-cover object-center"
-                alt="2"
+                alt="US real estate expert"
               />
             </div>
             <div className="absolute top-12 right-36 max-lg:right-24 max-sm:right-12 w-12 h-12 rounded-full overflow-hidden">
               <img
                 src="/contact-page-images/3.jpg"
                 className="w-full h-full object-cover object-center"
-                alt="3"
+                alt="Middle East investment advisor"
               />
             </div>
             {/* map human images end */}
@@ -449,24 +446,20 @@ const ContactPage = () => {
             className="w-1/3 max-lg:w-full max-lg:text-center flex flex-col gap-2 items-start max-lg:items-center"
           >
             <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-              What we do
+              Global Property Experts
             </h2>
             <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-              urna in elit amet blandit enim lacinia. Tellus leo felis et vel
-              eget maecenas.
+              Headquartered in the UK with international reach, we deliver bespoke property solutions across continents, specializing in both residential and commercial markets.
             </p>
             <Link to="/about" onClick={scrollToTop}>
               <button
                 style={{ borderWidth: 1.5, borderRadius: 4 }}
-                className="bg-transparent  text-black border-red-500 text-xl px-5 py-2 duration-300 hover:bg-red-500 hover:text-white transition-all mt-5 max-md:mt-3"
+                className="bg-transparent text-black border-red-500 text-xl px-5 py-2 duration-300 hover:bg-red-500 hover:text-white transition-all mt-5 max-md:mt-3"
               >
                 About Us
               </button>
             </Link>
           </motion.div>
-
-          {/* <div className="cards w-2/3 max-lg:w-full flex justify-center max-md:flex-col max-md:items-center gap-7"> */}
 
           <motion.div
             initial="initial"
@@ -475,28 +468,21 @@ const ContactPage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="cards w-2/3 max-lg:w-full flex justify-center max-md:flex-col max-md:items-center gap-7"
           >
-            {/* <Reveal
-              triggerOnce={true}
-              className="flex flex-col gap-7 "
-              keyframes={fadeUp}
-            > */}
-
-            {/* <div className="flex flex-col gap-7 "> */}
-            <div className="flex flex-col gap-7 ">
+            <div className="flex flex-col gap-7">
               <WhatWeDoCard
                 iconSrc={"/icons/reliability.png"}
                 iconAlt={"reliability"}
-                title={"Reliability"}
+                title={"International Network"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "With offices in London, New York, and Dubai, we provide seamless cross-border transactions and local market expertise worldwide."
                 }
               />
               <WhatWeDoCard
                 iconSrc={"/icons/communication.png"}
                 iconAlt={"communication"}
-                title={"communication"}
+                title={"24/7 Global Support"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "Our multilingual team offers round-the-clock service across timezones, ensuring smooth communication for international clients."
                 }
               />
             </div>
@@ -508,9 +494,9 @@ const ContactPage = () => {
               <WhatWeDoCard
                 iconSrc={"/icons/quality-first.png"}
                 iconAlt={"quality-first"}
-                title={"Quality First"}
+                title={"Market Intelligence"}
                 desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
+                  "We provide comprehensive analysis of both UK and international property markets, helping clients make informed investment decisions."
                 }
               />
               <div
@@ -519,21 +505,20 @@ const ContactPage = () => {
               ></div>
             </div>
           </motion.div>
-          {/* </Reveal> */}
         </div>
       </div>
       <div
         style={{ maxWidth: 1200 }}
-        className=" mx-auto  p-10 py-28 max-md:py-14 max-md:px-5 "
+        className="mx-auto p-10 py-28 max-md:py-14 max-md:px-5"
       >
         <motion.h1
           initial="initial"
           whileInView="animate"
           variants={animationVariants.fadeUp}
           viewport={{ once: true, amount: 0.2 }}
-          className="text-5xl max-md:text-4xl font-semibold text-center  mb-16 max-md:mb-12"
+          className="text-5xl max-md:text-4xl font-semibold text-center mb-16 max-md:mb-12"
         >
-          Customers frequently ask
+          Property Questions Answered
         </motion.h1>
         <motion.div
           initial="initial"
@@ -541,8 +526,8 @@ const ContactPage = () => {
           variants={animationVariants.fadeUp}
           viewport={{ once: true, amount: 0.2 }}
         >
-          <Accordion className="flex max-md:flex-col gap-5 " allowToggle={true}>
-            <div className=" w-1/2 max-md:w-full text-xl flex flex-col gap-5 ">
+          <Accordion className="flex max-md:flex-col gap-5" allowToggle={true}>
+            <div className="w-1/2 max-md:w-full text-xl flex flex-col gap-5">
               <AccordionItem className="border-none box-shadow p-6">
                 <h2>
                   <AccordionButton
@@ -551,16 +536,14 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How will I know if a special request is confirmed?
+                      Do you sell houses?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                  Yes! We sell all types of properties - houses, flats, commercial spaces, and land.
+                  Check our listings or tell us what you're looking for at enquiries@homyzproperties.com.
                 </AccordionPanel>
               </AccordionItem>
 
@@ -572,18 +555,22 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      Can I request early check-in/late check-out?
+                      How do I buy a property?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                  Simple process:
+                  1. Browse our listings online
+                  2. Contact the agent via the property page
+                  3. View the property (in-person or virtual tour)
+                  4. Make an offer through your agent
+                  5. We'll handle all paperwork and completion
+                  Start now by calling +44 20 1234 5678
                 </AccordionPanel>
               </AccordionItem>
+
               <AccordionItem className="border-none box-shadow p-6">
                 <h2>
                   <AccordionButton
@@ -592,18 +579,21 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      Where can I check my booking details and status?
+                      Can I sell my house through you?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                  Absolutely. We offer:
+                  - Free valuation
+                  - Professional photography
+                  - Listing on all major property portals
+                  - Dedicated sales agent
+                  Email sales@homyzproperties.com or call us to arrange a valuation.
                 </AccordionPanel>
               </AccordionItem>
+
               <AccordionItem className="border-none box-shadow p-6">
                 <h2>
                   <AccordionButton
@@ -612,20 +602,22 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How will I know if a special request is confirmed?
+                      What areas do you cover?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                  We cover all UK regions plus international markets in:
+                  - USA (New York, Miami, LA)
+                  - Europe (Spain, France, Portugal)
+                  - UAE (Dubai, Abu Dhabi)
+                  Need a specific area? Ask us: +44 20 1234 5678
                 </AccordionPanel>
               </AccordionItem>
             </div>
-            <div className=" w-1/2 max-md:w-full text-xl flex flex-col gap-5 ">
+
+            <div className="w-1/2 max-md:w-full text-xl flex flex-col gap-5">
               <AccordionItem className="border-none box-shadow p-6">
                 <h2>
                   <AccordionButton
@@ -634,17 +626,17 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      Can I choose the type of bed I want, request a smoking or
-                      non-smoking room?
+                      How much are your fees?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                  For buyers: No fees - our service is free
+                  <br />
+                  For sellers: Typically 1-2% + VAT (depending on property value)
+                  <br />
+                  Email fees@homyzproperties.com for exact quote.
                 </AccordionPanel>
               </AccordionItem>
 
@@ -656,18 +648,17 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      When do I get a confirmation email?
+                      Can I rent properties through you?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                  Yes! We have hundreds of rental properties across the UK and internationally.
+                  View available rentals on our site or call our lettings team: +44 20 1234 5679
                 </AccordionPanel>
               </AccordionItem>
+
               <AccordionItem className="border-none box-shadow p-6">
                 <h2>
                   <AccordionButton
@@ -676,18 +667,20 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      How can I cancel my booking?
+                      How do I contact an agent?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                  Three easy ways:
+                  1. Click "Contact Agent" on any property listing
+                  2. Call our main line: +44 20 1234 5678
+                  3. Visit our contact page and fill out the form
+                  We respond within 1 business hour.
                 </AccordionPanel>
               </AccordionItem>
+
               <AccordionItem className="border-none box-shadow p-6">
                 <h2>
                   <AccordionButton
@@ -696,17 +689,17 @@ const ContactPage = () => {
                     _expanded={{ color: "#ef4444" }}
                   >
                     <Box as="span" flex="1" textAlign="left">
-                      If I have booked accommodation, how can I check my
-                      cancellation policy?
+                      Do you help with mortgages?
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  Many people has the notion that enlightenment is one state.
-                  Many also believe that when it is attained, a person is
-                  forever in that state.For your necessary discernment. Thank
-                  you for reading.
+                  Yes! Our mortgage advisors can:
+                  - Compare 100+ lenders
+                  - Get you pre-approved
+                  - Handle all paperwork
+                  Book a free consultation at mortgages@homyzproperties.com
                 </AccordionPanel>
               </AccordionItem>
             </div>

@@ -24,20 +24,19 @@ const AboutPage = () => {
           className="flex gap-10 justify-between items-end max-md:items-center px-10 mx-auto max-md:px-5 max-md:flex-col"
         >
           <div className="text-white flex flex-col gap-8 max-md:items-center max-md:text-center">
-            <h1 className="text-5xl font-bold">Who We Are</h1>
+            <h1 className="text-5xl font-bold">Global Property Experts</h1>
             <p className="text-xl max-w-md">
-              Our mission is to engage in issues that are of concern to
-              individuals
+              Connecting investors with premium real estate opportunities worldwide
             </p>
           </div>
           <div className="flex gap-12 max-sm:text-center text-white">
             <div className="flex max-md:items-center flex-col gap-4">
-              <h2 className="text-4xl title-font font-bold">19K+</h2>
-              <p className="text-lg">Premium houses</p>
+              <h2 className="text-4xl title-font font-bold">25K+</h2>
+              <p className="text-lg">Properties Listed</p>
             </div>
             <div className="flex max-md:items-center flex-col gap-4">
-              <h2 className="text-4xl  title-font font-bold">5000+</h2>
-              <p className="text-lg">Premium houses</p>
+              <h2 className="text-4xl  title-font font-bold">15+</h2>
+              <p className="text-lg">Countries Covered</p>
             </div>
           </div>
         </motion.div>
@@ -56,11 +55,11 @@ const AboutPage = () => {
           <div className="flex w-full gap-10 max-md:flex-col max-md:justify-center max-md:items-center max-md:text-center">
             <div className="flex flex-col items-start justify-between max-md:items-center">
               <h1 className="text-5xl font-bold title-font w-max">
-                What we offer
+                Our Services
               </h1>
               <Link onClick={scrollToTop} to={"/services"}>
                 <Button
-                  content={"Services"}
+                  content={"Explore Services"}
                   fontSize={"text-xl"}
                   padding={"px-5  py-2"}
                   furtherClasses={"mt-8"}
@@ -71,36 +70,33 @@ const AboutPage = () => {
               <img
                 src="/about-page-images/what-we-do.jpg"
                 className="w-full h-full"
-                alt=""
+                alt="Global property services"
               />
             </div>
           </div>
           <div className="what-we-do-cards mt-14 gap-8 max-md:grid-cols-1 max-md:grid-rows-3 grid grid-cols-3 grid-rows-1">
             <div>
               <h2 className="text-2xl text-red-500 font-semibold">
-                Get an instant free valuation
+                Market Intelligence
               </h2>
               <p className="text-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                Comprehensive analysis of global property trends and investment opportunities
               </p>
             </div>
             <div>
               <h2 className="text-2xl text-red-500 font-semibold">
-                Get your property ready
+                Acquisition Support
               </h2>
               <p className="text-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                End-to-end assistance in identifying and securing prime properties
               </p>
             </div>
             <div>
               <h2 className="text-2xl text-red-500 font-semibold">
-                Offer acceptance
+                Portfolio Management
               </h2>
               <p className="text-xl mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                Professional oversight to maximize returns on your real estate assets
               </p>
             </div>
           </div>
@@ -119,12 +115,12 @@ const AboutPage = () => {
             className=" w-1/2 max-md:w-full flex flex-col text-white items-start justify-between max-md:items-center"
           >
             <h1 className="text-5xl font-bold title-font w-max">
-              What we offer
+              Our Legacy
             </h1>
             <p className="text-xl mt-5">
-              We are real estate agency that has been established since 1995
-              with many advantages over our competitors. We have more than 10000
-              happy customers and have worked with more than 200 distributors
+              Established in 1995, we've grown into a global real estate leader with 
+              over 10,000 satisfied clients and partnerships with 200+ international 
+              property developers and funds.
             </p>
           </motion.div>
 
@@ -135,7 +131,7 @@ const AboutPage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className=" w-1/2 max-md:w-full text-white/50"
           >
-            <h2 className="text-2xl">Our Projects</h2>
+            <h2 className="text-2xl">Successful Transactions</h2>
             <div className="relative w-fit max-md:mx-auto -mt-7 max-md:-mt-5">
               <h1 className="text-[150px] max-sm:text-[120px] font-semibold relative text-red-500">
                 200+
@@ -166,13 +162,13 @@ const AboutPage = () => {
             className=" flex max-md:flex-wrap-reverse justify-center items-end max-md:text-center gap-10 max-md:gap-12  -mt-44 max-md:mt-0 "
           >
             <div className=" w-1/2 max-md:w-full flex flex-col text-white items-start justify-between max-md:items-center">
-              <img src="/we-focus.jpg" alt="" />
+              <img src="/we-focus.jpg" alt="Global property portfolio" />
             </div>
 
             <div className=" w-1/2 text-5xl max-lg:text-4xl max-md:w-full ">
-              <h1 className="font-semibold ">We focus on all</h1>
+              <h1 className="font-semibold ">We specialize in</h1>
               <h1 className="font-semibold  text-red-500">
-                Real Estate Class Saaets
+                All Property Classes
               </h1>
             </div>
           </motion.div>
@@ -189,8 +185,7 @@ const AboutPage = () => {
                 Residential
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                Luxury homes, apartments, and development projects in prime locations
               </p>
             </motion.div>
             <motion.div
@@ -200,13 +195,12 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold">-02</h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                Commercial
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                Office towers, retail spaces, and mixed-use developments
               </p>
             </motion.div>
             <motion.div
@@ -216,13 +210,12 @@ const AboutPage = () => {
               viewport={{ once: true, amount: 0.2 }}
               className="border-t-2 text-xl border-black/20 pt-4"
             >
-              <h2 className="title-font font-semibold">-01</h2>
+              <h2 className="title-font font-semibold">-03</h2>
               <h2 className="title-font mt-7  font-medium text-red-500">
-                Residential
+                Hospitality
               </h2>
               <p className="mt-2">
-                Lorem ipsum dolor sit amet consectetur. Malesuada vehicula netus
-                urna in elit amet.
+                Hotels, resorts, and serviced apartment investments
               </p>
             </motion.div>
           </div>
@@ -245,12 +238,12 @@ const AboutPage = () => {
             className="w-1/2 max-lg:w-2/3 max-md:w-full"
           >
             <h1 className="text-5xl ">
-              We seek to create value for investors across the
-              <span className="text-red-500"> real estate spectrum</span>
+              Comprehensive services across the
+              <span className="text-red-500"> property spectrum</span>
             </h1>
             <div className="flex flex-col gap-5 mt-7">
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>Investment Strategy</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -260,7 +253,7 @@ const AboutPage = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>Property Acquisition</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -270,7 +263,7 @@ const AboutPage = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>Asset Management</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -280,7 +273,7 @@ const AboutPage = () => {
                 </Link>
               </div>
               <div className="flex justify-between items-center border-b-2 border-black/30 pb-5 text-2xl">
-                <h2>Investmennt Management</h2>
+                <h2>Market Research</h2>
                 <Link
                   to={"/services"}
                   onClick={scrollToTop}
@@ -311,14 +304,13 @@ const AboutPage = () => {
               variants={animationVariants.fadeLeft}
               className="text-5xl max-md:text-4xl font-semibold"
             >
-              We use Real Estate to show our appreciation of the world.
+              Building wealth through strategic investments
             </motion.h1>
             <motion.p
               variants={animationVariants.fadeLeft}
               className="text-2xl"
             >
-              We provide equity and debt capital globally to back projects that
-              make an impact.
+              We provide equity and debt solutions for premium real estate projects worldwide
             </motion.p>
             <motion.div
               variants={animationVariants.fadeLeft}
@@ -326,34 +318,34 @@ const AboutPage = () => {
             >
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  25+
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Years of global experience
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  $12B+
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  In completed transactions
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  98%
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Client satisfaction rate
                 </p>
               </div>
               <div className="flex flex-col max-lg:justify-center max-lg:items-center">
                 <h2 className="title-font text-red-500 text-5xl max-md:text-4xl font-semibold">
-                  8
+                  15
                 </h2>
                 <p className="text-xl">
-                  Years of seccessful experience in real estate
+                  Global markets covered
                 </p>
               </div>
             </motion.div>
@@ -372,7 +364,7 @@ const AboutPage = () => {
               <img
                 src="/appriciation-section-image.jpg"
                 className="absolute w-full h-full object-cover object-center "
-                alt=""
+                alt="Global property investments"
               />
               <div className="absolute w-full h-full bg-black/50 "></div>
               <motion.div
@@ -408,8 +400,8 @@ const AboutPage = () => {
             >
               <ReviewCard
                 imgSrc={"/reviews/jane-cooper.jpg"}
-                title={"Jane Cooper"}
-                from={"Real Estate"}
+                title={"Sarah Johnson"}
+                from={"Portfolio Investor"}
               />
             </motion.div>
             <motion.div
@@ -418,8 +410,8 @@ const AboutPage = () => {
             >
               <ReviewCard
                 imgSrc={"/reviews/robert-fox.jpg"}
-                title={"Robert Fox"}
-                from={"Creative Director"}
+                title={"Michael Chen"}
+                from={"Commercial Developer"}
               />
             </motion.div>
             <motion.div
@@ -428,8 +420,8 @@ const AboutPage = () => {
             >
               <ReviewCard
                 imgSrc={"/reviews/marvin-mckinney.jpg"}
-                title={"Marvin Mckinney"}
-                from={"CEO of Bimetrix"}
+                title={"Emma Rodriguez"}
+                from={"Private Equity"}
               />
             </motion.div>
           </motion.div>
@@ -441,7 +433,7 @@ const AboutPage = () => {
             className="w-2/4 max-md:w-full max-md:text-center flex flex-col gap-8"
           >
             <h1 className="text-5xl max-md:text-4xl font-semibold">
-              Why do people love homyz
+              Trusted by global investors
             </h1>
             <div>
               <Carousel />

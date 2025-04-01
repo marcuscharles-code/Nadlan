@@ -1,102 +1,102 @@
 export const showCase = [
   {
     id: 1,
-    city: "Karachi",
+    city: "London",
     shortDescription:
-      "Karachi 'The City of Lights', the vibrant metropolis on the shores of the Arabian Sea, is a melting pot of diverse cultures, bustling with energy.",
+      "London, the global financial hub, offers prime real estate opportunities from historic townhouses to modern skyscrapers.",
     description:
-      "Karachi: Karachi is the largest and most populous city in Pakistan, located on the southern coast of the country. It is known as the financial and economic hub of Pakistan, with a bustling metropolitan atmosphere. Karachi is home to a diverse population, vibrant markets, and a lively food scene. It also boasts beautiful beaches along the Arabian Sea, historical landmarks, and a thriving arts and entertainment scene.",
-    coverImage: "/Project-showcase/Karachi/Dolmen-bahria-towers.jpg",
+      "London: As one of the world's leading financial centers, London's property market remains strong with high demand for both residential and commercial spaces. The city offers diverse architecture from Georgian townhouses in Belgravia to contemporary developments in Canary Wharf. Key areas include Mayfair for luxury properties, Shoreditch for creative spaces, and Kensington for family homes. Excellent transport links and world-class amenities make London property a solid investment.",
+    coverImage: "/Project-showcase/Karachi/Dolmen-bahria-towers.jpg",  // Kept original
     moreImages: [
-      "/Project-showcase/Karachi/Street-view.jpg",
-      "/Project-showcase/Karachi/City-view.jpg",
-      "/Project-showcase/Karachi/Kharadar-street.jpg",
-      "/Project-showcase/Karachi/Flyover-view.jpg",
+      "/Project-showcase/Karachi/Street-view.jpg",  // Kept original
+      "/Project-showcase/Karachi/City-view.jpg",  // Kept original
+      "/Project-showcase/Karachi/Kharadar-street.jpg",  // Kept original
+      "/Project-showcase/Karachi/Flyover-view.jpg",  // Kept original
     ],
     prevHref: "/projects/6",
     nextHref: "/projects/2",
   },
   {
     id: 2,
-    city: "Islamabad",
+    city: "New York",
     shortDescription:
-      "Islamabad, the serene capital of Pakistan, is nestled among picturesque hills, renowned for its well-planned infrastructure and green spaces.",
+      "New York's dynamic real estate market features iconic skyscrapers, luxury condos, and vibrant neighborhood properties.",
     description:
-      "Islamabad: Islamabad is the capital city of Pakistan, nestled in the Margalla Hills in the northern part of the country. It is a modern and planned city, known for its wide, tree-lined avenues, spacious parks, and serene beauty. Islamabad is home to the country's government institutions, diplomatic enclaves, and a growing technology and business sector. The city also offers a range of recreational activities, including hiking trails, golf courses, and cultural festivals.",
-    coverImage: "/Project-showcase/Islamabad/Faisal-mosque.jpg",
+      "New York: The NYC property market offers everything from Manhattan penthouses to Brooklyn brownstones. Manhattan remains the most expensive borough, with Midtown and Downtown being prime commercial districts. Emerging markets in Queens and Brooklyn offer growth potential. The city's constant demand, limited space, and global appeal make it a resilient market. Recent developments include eco-friendly buildings and smart home technologies.",
+    coverImage: "/Project-showcase/Islamabad/Faisal-mosque.jpg",  // Kept original
     moreImages: [
-      "/Project-showcase/Islamabad/Fatima-Jinnah-Park.jpg",
-      "/Project-showcase/Islamabad/Lotus-temple.jpg",
-      "/Project-showcase/Islamabad/Margala-hills.jpg",
-      "/Project-showcase/Islamabad/Islamabad-murre-highway.jpg",
+      "/Project-showcase/Islamabad/Fatima-Jinnah-Park.jpg",  // Kept original
+      "/Project-showcase/Islamabad/Lotus-temple.jpg",  // Kept original
+      "/Project-showcase/Islamabad/Margala-hills.jpg",  // Kept original
+      "/Project-showcase/Islamabad/Islamabad-murre-highway.jpg",  // Kept original
     ],
     prevHref: "/projects/1",
     nextHref: "/projects/5",
   },
   {
     id: 3,
-    city: "Lahore",
+    city: "Dubai",
     shortDescription:
-      "Lahore, the cultural heart of Pakistan, captivates visitors with its grand Mughal architecture, making it a city that embraces history, art, and a vibrant zest for life.",
+      "Dubai's luxury property market features iconic skyscrapers, waterfront villas, and tax-free investment opportunities.",
     description:
-      "Lahore: Lahore is the cultural capital of Pakistan, situated in the eastern province of Punjab. It is renowned for its rich history, Mughal-era architecture, and vibrant traditions. Lahore is home to many historical sites, including the iconic Badshahi Mosque and Lahore Fort. The city is also known for its love of arts, literature, and music, with numerous festivals and cultural events taking place throughout the year.",
-    coverImage: "/Project-showcase/Lahore/Badshahi-mosque.jpg",
+      "Dubai: The city offers some of the world's most innovative real estate, from Palm Jumeirah villas to Downtown skyscrapers. Freehold areas allow foreign ownership, attracting global investors. The market has stabilized after rapid growth, offering good value in emerging areas like Dubai South. High rental yields and no property taxes make Dubai attractive for investors. Expo 2020 legacy projects continue to drive development.",
+    coverImage: "/Project-showcase/Lahore/Badshahi-mosque.jpg",  // Kept original
     moreImages: [
-      "/Project-showcase/Lahore/Minar-e-pakistan.jpg",
-      "/Project-showcase/Lahore/Royal-fort.jpg",
-      "/Project-showcase/Lahore/Rose-garden-fc.jpg",
-      "/Project-showcase/Lahore/Walled-city.jpg",
+      "/Project-showcase/Lahore/Minar-e-pakistan.jpg",  // Kept original
+      "/Project-showcase/Lahore/Royal-fort.jpg",  // Kept original
+      "/Project-showcase/Lahore/Rose-garden-fc.jpg",  // Kept original
+      "/Project-showcase/Lahore/Walled-city.jpg",  // Kept original
     ],
     prevHref: "/projects/2",
     nextHref: "/projects/4",
   },
   {
     id: 4,
-    city: "Quetta",
+    city: "Singapore",
     shortDescription:
-      "Quetta, the captivating city nestled in the rugged mountains of Balochistan, enchants with its breathtaking natural beauty and landscapes.",
+      "Singapore's stable property market offers high-end condominiums, landed properties, and commercial spaces in Asia's business hub.",
     description:
-      "Quetta: Quetta is the provincial capital of Balochistan, located in southwestern Pakistan. It is surrounded by rugged mountains and serves as a gateway to the famous Bolan Pass. Quetta has a distinctive culture influenced by its proximity to Afghanistan and Iran. The city is known for its dry, arid climate and serves as a trading center for fruits, particularly apples. Quetta is also a starting point for exploring the scenic beauty of the province, including the Ziarat Valley and Hanna Lake.",
-    coverImage: "/Project-showcase/Quetta/Quaid-e-azam-residency.jpg",
+      "Singapore: The city-state's property market is known for its stability and high standards. Luxury condominiums with resort-style amenities are popular among expats, while landed properties are restricted to citizens. The Central Business District remains prime commercial space. Government cooling measures ensure sustainable growth. Emerging areas like Jurong Lake District offer new opportunities. Singapore's strong legal system makes property transactions secure.",
+    coverImage: "/Project-showcase/Quetta/Quaid-e-azam-residency.jpg",  // Kept original
     moreImages: [
-      "/Project-showcase/Quetta/Hanna-lake.jpg",
-      "/Project-showcase/Quetta/Miri-fort.jpg",
-      "/Project-showcase/Quetta/Bolan-pass.jpg",
-      "/Project-showcase/Quetta/Koh-e-chiltan.jpg",
+      "/Project-showcase/Quetta/Hanna-lake.jpg",  // Kept original
+      "/Project-showcase/Quetta/Miri-fort.jpg",  // Kept original
+      "/Project-showcase/Quetta/Bolan-pass.jpg",  // Kept original
+      "/Project-showcase/Quetta/Koh-e-chiltan.jpg",  // Kept original
     ],
     prevHref: "/projects/3",
     nextHref: "/projects/5",
   },
   {
     id: 5,
-    city: "Peshawar",
+    city: "Sydney",
     shortDescription:
-      "Peshawar, the historic city in Khyber Pakhtunkhwa province, carries a rich cultural heritage with its bustling markets, ancient landmarks.",
+      "Sydney's property market combines waterfront luxury homes with suburban family properties in Australia's most populous city.",
     description:
-      "Peshawar: Peshawar is a city located in the Khyber Pakhtunkhwa province of Pakistan, close to the country's western border with Afghanistan. It is one of the oldest continuously inhabited cities in the world and has a unique blend of cultures and traditions. Peshawar is known for its bustling bazaars, where one can find traditional handicrafts, spices, and vibrant street food. The city is also a gateway to the scenic beauty of the Khyber Pass and the nearby tribal areas.",
-    coverImage: "/Project-showcase/Peshawar/Baab-e-khyber.jpg",
+      "Sydney: The harbor city offers diverse property options from Bondi beachfront apartments to North Shore family homes. Eastern suburbs remain premium locations, while Western Sydney offers affordability and growth potential. Strong migration drives demand, though prices have stabilized after rapid growth. Recent trends favor properties with home offices and outdoor spaces. Sydney's stable economy and lifestyle continue to attract investors.",
+    coverImage: "/Project-showcase/Peshawar/Baab-e-khyber.jpg",  // Kept original
     moreImages: [
-      "/Project-showcase/Peshawar/Islamia-college.jpg",
-      "/Project-showcase/Peshawar/Sir-cunningham-clock-tower.jpg",
-      "/Project-showcase/Peshawar/Sethi-house.jpg",
-      "/Project-showcase/Peshawar/Peshawar-museum.jpg",
+      "/Project-showcase/Peshawar/Islamia-college.jpg",  // Kept original
+      "/Project-showcase/Peshawar/Sir-cunningham-clock-tower.jpg",  // Kept original
+      "/Project-showcase/Peshawar/Sethi-house.jpg",  // Kept original
+      "/Project-showcase/Peshawar/Peshawar-museum.jpg",  // Kept original
     ],
     prevHref: "/projects/4",
     nextHref: "/projects/6",
   },
   {
     id: 6,
-    city: "Murree",
+    city: "Toronto",
     shortDescription:
-      "Murree, the charming hill station in the foothills of the Himalayas, allures visitors with its cool climate, verdant forests, and panoramic views.",
+      "Toronto's diverse real estate market ranges from downtown condos to suburban family homes in Canada's economic capital.",
     description:
-      "Murree: Murree is a hill station situated in the Pir Panjal Range of the Himalayas, just outside Islamabad. It is a popular tourist destination known for its cool climate, scenic beauty, and lush green hills. Murree offers breathtaking views, picturesque landscapes, and a pleasant escape from the summer heat of the plains. The town is dotted with colonial-era buildings, bustling markets, and charming guesthouses, making it a favored retreat for locals and tourists alike.",
-    coverImage: "/Project-showcase/Murree/Hills-view.jpg",
+      "Toronto: The city's property market remains strong despite recent cooling measures. Downtown condos appeal to young professionals, while the suburbs attract families. Areas like Yorkville offer luxury properties, while emerging neighborhoods like Leslieville provide value. High immigration and limited supply support prices. Recent developments focus on transit-oriented communities and mixed-use projects. Toronto's stable economy makes it a safe long-term investment.",
+    coverImage: "/Project-showcase/Murree/Hills-view.jpg",  // Kept original
     moreImages: [
-      "/Project-showcase/Murree/Attabad-lake.jpg",
-      "/Project-showcase/Murree/Chair-lifts.jpg",
-      "/Project-showcase/Murree/Jhika-gali.jpg",
-      "/Project-showcase/Murree/Murree-city.jpg",
+      "/Project-showcase/Murree/Attabad-lake.jpg",  // Kept original
+      "/Project-showcase/Murree/Chair-lifts.jpg",  // Kept original
+      "/Project-showcase/Murree/Jhika-gali.jpg",  // Kept original
+      "/Project-showcase/Murree/Murree-city.jpg",  // Kept original
     ],
     prevHref: "/projects/5",
     nextHref: "/projects/1",
