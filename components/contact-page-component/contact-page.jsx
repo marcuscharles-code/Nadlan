@@ -144,7 +144,7 @@ const ContactPage = () => {
 
   return (
     <div className=" w-full overflow-hidden">
-      <div className="  flex bg-[url('/hero-bg-image.jpg')] pt-44 max-sm:pt-40 pb-32 bg-top bg-no-repeat bg-cover  ">
+    <div className="flex bg-[url('/hero-bg-image.jpg')] pt-44 max-sm:pt-40 pb-32 bg-top bg-no-repeat bg-cover">
         <div
           style={{ maxWidth: 1200 }}
           className="mx-auto w-full text-white px-10 max-sm:px-5 flex flex-col max-lg:items-center max-lg:text-center gap-16"
@@ -154,9 +154,9 @@ const ContactPage = () => {
             whileInView="animate"
             variants={animationVariants.zoomOut}
             viewport={{ once: true, amount: 0.2 }}
-            className="text-6xl max-lg:mx-auto font-semibold max-sm:text-5xl max-w-lg "
+            className="text-6xl max-lg:mx-auto font-semibold max-sm:text-5xl max-w-lg"
           >
-            Contact Us
+            Get in Touch with Homyz
           </motion.h1>
           <motion.div
             initial="initial"
@@ -167,45 +167,44 @@ const ContactPage = () => {
           >
             <motion.div
               variants={animationVariants.fadeUp}
-              className="card bg-white text-black rounded-md gap-5  p-6 pb-10 max-lg:p-5 max-lg:pb-8 max-md:p-6 max-md:py-7 max-md:pb-10 flex flex-col gap text-xl "
+              className="card bg-white text-black rounded-md gap-5 p-6 pb-10 max-lg:p-5 max-lg:pb-8 max-md:p-6 max-md:py-7 max-md:pb-10 flex flex-col gap text-xl"
             >
               <div className="card-header text-2xl flex items-center gap-4">
                 <div className="bg-red-500 w-[60px] h-[58px] rounded-md text-xl flex gap-4 justify-center items-center">
                   <FaEnvelope className="text-white" />
                 </div>
-                <h2 className="title-font font-semibold ">Services</h2>
+                <h2 className="title-font font-semibold">Contact Us</h2>
               </div>
-              <p>Neque porro quisquam est, qui dolorem ipsum.</p>
+              <p>Reach out for inquiries, partnerships, or feedback.</p>
             </motion.div>
             <motion.div
               variants={animationVariants.fadeUp}
-              className="card bg-white text-black rounded-md gap-5  p-6 pb-10 max-lg:p-5 max-lg:pb-8 max-md:p-6 max-md:py-7 max-md:pb-10 flex flex-col gap text-xl "
+              className="card bg-white text-black rounded-md gap-5 p-6 pb-10 max-lg:p-5 max-lg:pb-8 max-md:p-6 max-md:py-7 max-md:pb-10 flex flex-col gap text-xl"
             >
               <div className="card-header text-2xl flex items-center gap-4">
                 <div className="bg-red-500 w-[60px] h-[58px] rounded-md text-xl flex gap-4 justify-center items-center">
                   <FaCoins className="text-white" />
                 </div>
-                <h2 className="title-font font-semibold ">Pricing</h2>
+                <h2 className="title-font font-semibold">Our Pricing</h2>
               </div>
-              <p>Neque porro quisquam est, qui dolorem ipsum.</p>
+              <p>Explore our competitive pricing plans tailored for you.</p>
             </motion.div>
             <motion.div
               variants={animationVariants.fadeUp}
-              className="card bg-white text-black rounded-md gap-5  p-6 pb-10 max-lg:p-5 max-lg:pb-8 max-md:p-6 max-md:py-7 max-md:pb-10 flex flex-col gap text-xl "
+              className="card bg-white text-black rounded-md gap-5 p-6 pb-10 max-lg:p-5 max-lg:pb-8 max-md:p-6 max-md:py-7 max-md:pb-10 flex flex-col gap text-xl"
             >
               <div className="card-header text-2xl flex items-center gap-4">
                 <div className="bg-red-500 w-[60px] h-[58px] rounded-md text-xl flex gap-4 justify-center items-center">
                   <FaMobileAlt className="text-white" />
                 </div>
-                <h2 className="title-font font-semibold ">Support</h2>
+                <h2 className="title-font font-semibold">Customer Support</h2>
               </div>
-              <p>Neque porro quisquam est, qui dolorem ipsum.</p>
+              <p>We're here to help you with any issues or questions.</p>
             </motion.div>
           </motion.div>
         </div>
-
-        {/* </Reveal> */}
       </div>
+
 
       {/* contact form section start */}
       <div
