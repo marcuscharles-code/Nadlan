@@ -167,7 +167,7 @@ const HomePage = () => {
       <div className="bg-gray-100">
         <div
           style={{ maxWidth: 1200 }}
-          className=" mx-auto flex gap-5 justify-between items-start p-10 py-28 max-md:py-16 max-md:px-5 max-lg:flex-col max-lg:items-center  max-lg:gap-12"
+          className="mx-auto flex gap-5 justify-between items-start p-10 py-28 max-md:py-16 max-md:px-5 max-lg:flex-col max-lg:items-center max-lg:gap-12"
         >
           <motion.div
             initial="initial"
@@ -177,16 +177,16 @@ const HomePage = () => {
             className="w-1/3 max-lg:w-full max-lg:text-center flex flex-col gap-2 items-start max-lg:items-center"
           >
             <h2 className="text-5xl max-md:text-4xl font-bold title-font">
-              What we do
+              What We Do
             </h2>
             <p className="text-xl text-start">
-              As a leading UK property developer, we specialise in:
+              Homyz is a leading real estate company dedicated to creating exceptional living and commercial spaces. Our expertise lies in:
               <ul className="list-disc pl-5 mt-3 space-y-2">
-                <li>Residential developments across London and major cities in the world</li>
-                <li>Commercial property investments and management</li>
-                <li>Renovation and conversion of period properties</li>
-                <li>Sustainable, energy-efficient home building</li>
-                <li>End-to-end property services from acquisition to completion</li>
+                <li>Developing luxury residential properties in prime locations.</li>
+                <li>Managing commercial spaces with innovative infrastructure.</li>
+                <li>Transforming old buildings into modern, functional spaces.</li>
+                <li>Building eco-friendly homes with sustainable practices.</li>
+                <li>Providing comprehensive property management services.</li>
               </ul>
             </p>
             <Link onClick={scrollToTop} to={"/about"}>
@@ -206,22 +206,18 @@ const HomePage = () => {
             viewport={{ once: true, amount: 0.2 }}
             className="cards w-2/3 max-lg:w-full flex justify-center max-md:flex-col max-md:items-center gap-7"
           >
-            <div className="flex flex-col gap-7 ">
+            <div className="flex flex-col gap-7">
               <WhatWeDoCard
                 iconSrc={"/icons/reliability.png"}
                 iconAlt={"reliability"}
                 title={"Reliability"}
-                desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
-                }
+                desc={"Our commitment to quality ensures lasting client satisfaction and trust."}
               />
               <WhatWeDoCard
                 iconSrc={"/icons/communication.png"}
                 iconAlt={"communication"}
-                title={"communication"}
-                desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
-                }
+                title={"Communication"}
+                desc={"We keep clients informed at every stage of their property journey."}
               />
             </div>
             <div className="flex flex-col gap-7">
@@ -233,9 +229,7 @@ const HomePage = () => {
                 iconSrc={"/icons/quality-first.png"}
                 iconAlt={"quality-first"}
                 title={"Quality First"}
-                desc={
-                  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio, nemo libero deleniti quibusdam quia!"
-                }
+                desc={"We deliver projects with premium craftsmanship and attention to detail."}
               />
               <div
                 style={{ height: 130 }}
@@ -255,69 +249,13 @@ const HomePage = () => {
             Exclusive Properties
           </motion.h2>
           <div className="flex flex-col gap-5 mt-10 max-sm:mt-8">
-            <div className=" flex gap-5 max-lg:flex-col">
-              <div className="w-2/4 max-lg:w-full">
-                <ExculusivePropertyCard
-                  imgSrc={rentHouses[0].mainImage}
-                  titlePart1={"House in "}
-                  titlePart2={rentHouses[0].name}
-                  pricing={rentHouses[0].price}
-                  type={rentHouses[0].type}
-                  href={rentHouses[0].id}
-                />
-              </div>
-              <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
-                <ExculusivePropertyCard
-                  imgSrc={rentHouses[1].mainImage}
-                  titlePart1={"House in "}
-                  titlePart2={rentHouses[1].name}
-                  pricing={rentHouses[1].price}
-                  type={rentHouses[1].type}
-                  href={rentHouses[1].id}
-                />
-                <ExculusivePropertyCard
-                  imgSrc={rentHouses[2].mainImage}
-                  titlePart1={"House in "}
-                  titlePart2={rentHouses[2].name}
-                  pricing={rentHouses[2].price}
-                  type={rentHouses[2].type}
-                  href={rentHouses[2].id}
-                />
-              </div>
-            </div>
-            <div className=" flex gap-5 max-lg:flex-col">
-              <div className="w-2/4 gap-5 flex max-lg:w-full max-sm:flex-col">
-                <ExculusivePropertyCard
-                  imgSrc={rentHouses[3].mainImage}
-                  titlePart1={"House in "}
-                  titlePart2={rentHouses[3].name}
-                  pricing={rentHouses[3].price}
-                  type={rentHouses[3].type}
-                  href={rentHouses[3].id}
-                />
-                <ExculusivePropertyCard
-                  imgSrc={rentHouses[4].mainImage}
-                  titlePart1={"House in "}
-                  titlePart2={rentHouses[4].name}
-                  pricing={rentHouses[4].price}
-                  type={rentHouses[4].type}
-                  href={rentHouses[4].id}
-                />
-              </div>
-              <div className="w-2/4 max-lg:w-full">
-                <ExculusivePropertyCard
-                  imgSrc={rentHouses[5].mainImage}
-                  titlePart1={"House in "}
-                  titlePart2={rentHouses[5].name}
-                  pricing={rentHouses[5].price}
-                  type={rentHouses[5].type}
-                  href={rentHouses[5].id}
-                />
-              </div>
-            </div>
+            <p className="text-center text-xl">
+              Discover our premium selection of residential and commercial properties tailored to your lifestyle and business needs.
+            </p>
           </div>
         </div>
       </div>
+
       {/* what we do section end */}
 
       {/* appreciation section start */}
